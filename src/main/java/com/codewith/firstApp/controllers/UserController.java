@@ -13,9 +13,9 @@ import com.codewith.firstApp.service.Userservice;
 @RequestMapping("/api/users")
 public class UserController {
 
-    private final Userservice userservice;
+    private final UserService userservice;
 
-    public UserController(Userservice userservice) {
+    public UserController(UserService userservice) {
         this.userservice = userservice;
     }
 
