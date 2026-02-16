@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.web.bind.annotation.*;
 
 import com.codewith.firstApp.model.User;
-import com.codewith.firstApp.service.Userservice;
+import com.codewith.firstApp.service.UserService;
 
 @CrossOrigin(origins = "*")
 @RestController
