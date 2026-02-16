@@ -8,11 +8,11 @@ import com.codewith.firstApp.model.User;
 import com.codewith.firstApp.Repository.UserRepository;
 
 @Service
-public class Userservice {
+public class UserService {
 
     private final UserRepository userRepository;
 
-    public Userservice(UserRepository userRepository) {
+    public UserService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
 
